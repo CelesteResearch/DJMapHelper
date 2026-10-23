@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "DJMapHelper",
+  "version": "1.13.4",
+  "mode": "local-rebuild",
+  "archive": {
+    "path": "DJMapHelper.zip",
+    "sha256": "95ab02d657213031b70c3079738b21be399e567ca8a32b1fe8e8effc0778eedb",
+    "downloadUrl": "https://gamebanana.com/mmdl/1036311",
+    "fileId": 1036311
+  },
+  "originalAssembly": {
+    "entry": "DJMapHelper.dll",
+    "sha256": "0d73202b5e16f26a4c8a286dd6ad600c1601d1904d8f72d909f8acb8469ee446"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "upstream": "https://gamebanana.com/mods/53646",
+  "recipe": "Recipe/recipe.json",
+  "assemblyName": "Celeste.Mods.DJMapHelper",
+  "dependencies": [],
+  "decompileTypes": [
+    {
+      "name": "Celeste.Mod.DJMapHelper.Cutscenes.CS_TalkToBadeline",
+      "path": "Celeste/Mod/DJMapHelper/Cutscenes/CS_TalkToBadeline.cs",
+      "sha256": "097fa4b36e39ef18734fa5dd8422f4adb66a9f0c084f1bc6e8a2bbe2292c2846"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Cutscenes.CS_Teleport",
+      "path": "Celeste/Mod/DJMapHelper/Cutscenes/CS_Teleport.cs",
+      "sha256": "f9203b64a9510274ff20cb12ee0d8234a69a7ef32b47957c1c0c391ef2d94551"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Cutscenes.ShowPlayerComponent",
+      "path": "Celeste/Mod/DJMapHelper/Cutscenes/ShowPlayerComponent.cs",
+      "sha256": "702043562ce20ac2f139fd085196a99b3e37fa6e714babfad9684403a03d39ec"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.DJMapHelperModule",
+      "path": "Celeste/Mod/DJMapHelper/DJMapHelperModule.cs",
+      "sha256": "991906dc68ad999ede579ebf14a7b1857e01189b48de9d8b662b11a84e68432b"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.DJMapHelperSession",
+      "path": "Celeste/Mod/DJMapHelper/DJMapHelperSession.cs",
+      "sha256": "7c9610afe72e9d0ef8cb6d08dd17ab1f81fcea7ea0d11cd1c6466ce88ad78fc6"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Entities.ColorfulRefill",
+      "path": "Celeste/Mod/DJMapHelper/Entities/ColorfulRefill.cs",
+      "sha256": "8938b1a38abdce64b694d669ad3dc05e9df2900fd65ccf1fc4ee5e038a507469"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Entities.FinalBossReversed",
+      "path": "Celeste/Mod/DJMapHelper/Entities/FinalBossReversed.cs",
+      "sha256": "00f357f1327b5742d4ad873e05c9ffcbe4d61cb2948bb42817d0a71d497494a7"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Entities.SpringGreen",
+      "path": "Celeste/Mod/DJMapHelper/Entities/SpringGreen.cs",
+      "sha256": "78ac9e6ada9a15e121b3f96e8b7945167cf72ec8b6e6e6b9ccd22dc4d739ec1d"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Entities.TempleGateReversed",
+      "path": "Celeste/Mod/DJMapHelper/Entities/TempleGateReversed.cs",
+      "sha256": "0d020d0b114b9cecb58df6c958c63bfd306a0ece894414166b15fa0c2041671f"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Entities.TheoCrystalBarrier",
+      "path": "Celeste/Mod/DJMapHelper/Entities/TheoCrystalBarrier.cs",
+      "sha256": "72314dd69c577b77095106dd6cd762e59616cf7d757143e68134d9d713d2596f"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Triggers.ChangeSpinnerColorTrigger",
+      "path": "Celeste/Mod/DJMapHelper/Triggers/ChangeSpinnerColorTrigger.cs",
+      "sha256": "1a55191745612f12d52d24d1f0823cfd041e66331b05433df3b77f1cb6993f62"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Triggers.ClimbBlockerTrigger",
+      "path": "Celeste/Mod/DJMapHelper/Triggers/ClimbBlockerTrigger.cs",
+      "sha256": "811ab85d61518cfd4b3ac82bc9f3e895207a8c35f670ba28fd825cb4a06e0b9c"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Triggers.ColorGradeTrigger",
+      "path": "Celeste/Mod/DJMapHelper/Triggers/ColorGradeTrigger.cs",
+      "sha256": "e96860b0f3d7629a19e0abbf91d63634246a939d7c0b572e96a6b2e893017bad"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Triggers.KillBoxTrigger",
+      "path": "Celeste/Mod/DJMapHelper/Triggers/KillBoxTrigger.cs",
+      "sha256": "1081b850e2e08939a71cef9dd8917fde570df486c29f9b361953d9cca5072532"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Triggers.MaxDashesTrigger",
+      "path": "Celeste/Mod/DJMapHelper/Triggers/MaxDashesTrigger.cs",
+      "sha256": "11ba1b527ee8e249191e95d6dab0ab9563a812bdf4f32580ad0fadcdf10cf49f"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Triggers.TalkToBadelineTrigger",
+      "path": "Celeste/Mod/DJMapHelper/Triggers/TalkToBadelineTrigger.cs",
+      "sha256": "1528b1433f679ae44b5d17dba8532fc2ba18caeab690ef38e8a6e200929039b1"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Triggers.TeleportTrigger",
+      "path": "Celeste/Mod/DJMapHelper/Triggers/TeleportTrigger.cs",
+      "sha256": "8721d3057aa69925318ce96bbeb6564b1d03c6db1008014bea92501ac402d1ac"
+    },
+    {
+      "name": "Celeste.Mod.DJMapHelper.Cutscenes.CS_BoostTeleport",
+      "path": "Celeste/Mod/DJMapHelper/Cutscenes/CS_BoostTeleport.cs",
+      "sha256": "8e0b3e7a8ecb4c27a858d4edb23513ddb9ea57683abf38e364761491159f8485"
+    }
+  ]
+}
